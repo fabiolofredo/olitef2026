@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologia 2024</title>
+  <style>
+    body {
+      background-color: powderblue;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+    }
+
+    table {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+    }
+
+    th,
+    td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgb(230, 230, 230);
+    }
+
+    tr:nth-child(odd) {
+      background-color: rgb(240, 240, 240);
+    }
+
+    h1 {
+      background-color: rgb(200, 200, 200);
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .qr-code {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .qr-code img {
+      max-width: 400px;
+      height: auto;
+    }
+
+    /* Estilizando os botões */
+    button,
+    a.button-link {
+      background-color: #4CAF50;
+      /* Verde */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    button:hover,
+    a.button-link:hover {
+      background-color: #45a049;
+      /* Verde mais escuro no hover */
+      box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media screen and (max-width: 600px) {
+      table {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      h1 {
+        font-size: 1.2em;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <th colspan="1">
+        <h1 style="text-align: center;font-size:50px;">Tecnologia 2024</h1>
+      </th>
+    </tr>
+  </table>
+
+  <div class="botoes" style="text-align: center;">
+    <button id="button1" onclick="show1bim()">1°Bim</button>
+    <button id="button2" onclick="show2bim()">2°Bim</button>
+    <button id="button3" onclick="show3bim()">3°Bim</button>
+    <button id="button4" onclick="show4bim()">4°Bim</button>
+  </div>
+
+  <div id="1bim" style="display:none;">
+    <table>
+      <tr>
+        <th><a target="_blank" href="https://docs.google.com/document/d/1wUpkQaYiIR82LGpoZja_RlX5O_gJ6RngWyGGe45jOzA/edit?usp=sharing" style="font-size:30px;">
+            Material 1°Bim
+          </a></th>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th>Links</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.onlinegdb.com/" target="_blank">GDB</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://editor.p5js.org/" target="_blank">P5js</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://scratch.mit.edu/" target="_blank">Scratch</a></td>
+      </tr>
+
+    </table>
+
+  </div>
+  <div id="2bim" style="display:none;">
+    <table>
+      <tr>
+        <th><a target="_blank" href="https://docs.google.com/document/d/1wUpkQaYiIR82LGpoZja_RlX5O_gJ6RngWyGGe45jOzA/edit?usp=sharing" style="font-size:30px;">
+            Material 2°Bim
+          </a></th>
+      </tr>
+    </table>
+
+    </table>
+    <table>
+      <tr>
+        <th>Links</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.onlinegdb.com/" target="_blank">GDB</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://editor.p5js.org/" target="_blank">P5js</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/" target="_blank">Github</a></td>
+      </tr>
+
+    </table>
+  </div>
+  <div id="3bim" style="display:none;">
+
+    <table>
+      <tr>
+        <th><a target="_blank" href="https://docs.google.com/document/d/1VJZxJLMi0xmHFlV-6FY-HG0HNNZ6XxndfPFA7X0l_rM/edit?usp=sharing" style="font-size:30px;">
+            Material 3°Bim
+          </a></th>
+      </tr>
+    </table>
+    <h2>
+
+    </h2>
+
+    <table>
+      <tr>
+        <th>Aulas</th>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/mdZweNM">1. Estrutura HTML</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/dyBRMpq">2. Tags e Atributos</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/VwJMBrN">3. Table e List</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/mdZBjGy">4. External, Internal e Inline com CSS</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/XWLZMJe">5. Classes e Id com CSS</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/oNrEZoV">6. Div e Box Model</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://codepen.io/FABIO-LOFREDO-CESAR/pen/JjQpNWj">7. Javascript Básico</a></td>
+      </tr>
+      <tr>
+        <td><a href="ex8.html">8. Site Online</a></td>
+      </tr>
+      <tr>
+        <td><a href="proj1.html">9. Projeto 1</a></td>
+      </tr>
+      <tr>
+        <td><a href="proj2.html">10. Projeto 2</a></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th><a target="_blank" href="https://dazai67.github.io/levantesi/">Site desenvolvido pela aluna Rebeca Levantesi</h1>
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <div id="4bim" style="display:none;">
+    <table>
+
+      <tr>
+        <th><a href="proj4bim.html">Projetos</a></th>
+      </tr>
+    </table>
+
+    <table>
+
+      <tr>
+        <th>Aulas</th>
+      </tr>
+
+      <tr>
+        <td><a href="#" onclick="introducao4bim()">1. Introdução</a><br>
+          <div id="docsintroducao4bim" style="display:none;text-align: center;"><iframe style="height:300px; width: 100%;max-width:800px" src="https://docs.google.com/document/d/1xsKQ7oxbKqfBJF-pKf5CJ3ovcYUiRJr8I5Z2WE33-zQ/pub?embedded=true"></iframe>
+            <hr>
+            <iframe style="width: 100%; max-width: 800px; aspect-ratio: 1.8;" src="https://www.youtube.com/embed/MTdiRlQEsU8" title="tec aula1 4bim" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><a target="_blank" href="https://docs.google.com/spreadsheets/d/1VajruOEUP49hlZdbSCFe9OqoB0eGSDQ4IPx5B_gtUao/edit?usp=sharing">2. Formatação e Fórmulas Básicas</a> </td>
+      </tr>
+
+      <tr>
+        <td><a target="_blank" href="https://docs.google.com/spreadsheets/d/1UwWuwG17Wg23WSYoDn4d9_CfnZbpZnsCtl68TNyO9gU/edit?usp=sharing">3. Formatação Condicional, Congelar e Esconder.</a> </td>
+      </tr>
+
+      <tr>
+        <td><a target="_blank" href="https://docs.google.com/spreadsheets/d/1YzZVQfkiDdSDVYCJvKnDxA6RI30CMakrj4niKe1weyY/edit?usp=sharing">4. Mesclar, Ordenar, Fórmulas e Condicional.</a> </td>
+      </tr>
+
+      <tr>
+        <td><a target="_blank" href="https://docs.google.com/spreadsheets/d/1wKtcehdJTvNBxDIvCVc8IsJ5CJyZxuwDru5qzxXZIC4/edit?usp=sharing">5. Gráficos, Sparkline e Imagens.</a> </td>
+      </tr>
+
+      <tr>
+        <td><a target="_blank" href="https://docs.google.com/spreadsheets/d/1A7ANtczD-RuoHPFUyb9LZts-kqrz-SPMlstyfdgGjMQ/edit?usp=sharing">6. Referência Absoluta, Data Validation, Split e Filtros.</a> </td>
+      </tr>
+
+    </table>
+  </div>
+
+  <div class="qr-code">
+    <p>QRCode para o site:</p>
+    <img src="qrcode.png" alt="qrcode">
+  </div>
+</body>
+
+<script>
+  function introducao4bim() {
+    if (document.getElementById('docsintroducao4bim').style.display == "none") {
+      document.getElementById('docsintroducao4bim').style.display = 'block';
+    } else {
+      document.getElementById('docsintroducao4bim').style.display = 'none';
+    }
+  }
+
+  function show1bim() {
+    document.getElementById('1bim').style.display = 'block';
+    document.getElementById('2bim').style.display = 'none';
+    document.getElementById('3bim').style.display = 'none';
+    document.getElementById('4bim').style.display = 'none';
+    document.getElementById('button1').style.backgroundColor = "#005000";
+    document.getElementById('button2').style.backgroundColor = "#4CAF50";
+    document.getElementById('button3').style.backgroundColor = "#4CAF50";
+    document.getElementById('button4').style.backgroundColor = "#4CAF50";
+  }
+
+  function show2bim() {
+    document.getElementById('1bim').style.display = 'none';
+    document.getElementById('2bim').style.display = 'block';
+    document.getElementById('3bim').style.display = 'none';
+    document.getElementById('4bim').style.display = 'none';
+    document.getElementById('button1').style.backgroundColor = "#4CAF50";
+    document.getElementById('button2').style.backgroundColor = "#005000";
+    document.getElementById('button3').style.backgroundColor = "#4CAF50";
+    document.getElementById('button4').style.backgroundColor = "#4CAF50";
+  }
+
+  function show3bim() {
+    document.getElementById('1bim').style.display = 'none';
+    document.getElementById('2bim').style.display = 'none';
+    document.getElementById('3bim').style.display = 'block';
+    document.getElementById('4bim').style.display = 'none';
+    document.getElementById('button1').style.backgroundColor = "#4CAF50";
+    document.getElementById('button2').style.backgroundColor = "#4CAF50";
+    document.getElementById('button3').style.backgroundColor = "#005000";
+    document.getElementById('button4').style.backgroundColor = "#4CAF50";
+  }
+
+  function show4bim() {
+    document.getElementById('1bim').style.display = 'none';
+    document.getElementById('2bim').style.display = 'none';
+    document.getElementById('3bim').style.display = 'none';
+    document.getElementById('4bim').style.display = 'block';
+    document.getElementById('button1').style.backgroundColor = "#4CAF50";
+    document.getElementById('button2').style.backgroundColor = "#4CAF50";
+    document.getElementById('button3').style.backgroundColor = "#4CAF50";
+    document.getElementById('button4').style.backgroundColor = "#005000";
+  }
+  // Função que será executada ao carregar a página
+  function iniciar() {
+    //show3bim();
+  }
+  window.onload = iniciar;
+</script>
+
+</html>
